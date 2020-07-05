@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkgmenu"
+    tools:context=".ui.menu.CateringBoxActivity">
+
+    <TextView
+        android:id="@+id/cat_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/text"
+        android:fontFamily="@font/aneetsans"
+        android:text="@string/catering_box"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <View
+        android:id="@+id/view_box1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:background="#946038"
+        android:backgroundTint="#946038"
+        app:layout_constraintTop_toBottomOf="@id/cat_box"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="170dp"/>
+
+
+    <View
+        android:id="@+id/view_box2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:background="#946038"
+        android:backgroundTint="#946038"
+        app:layout_constraintTop_toBottomOf="@id/view_box1"
+        app:layout_constraintLeft_toRightOf="@id/view_box1"
+        app:layout_constraintLeft_toLeftOf="@id/view_box1"/>
+
+    <View
+        android:id="@+id/view_box3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:background="#946038"
+        android:backgroundTint="#946038"
+        app:layout_constraintTop_toBottomOf="@id/cat_box"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="170dp"/>
+
+    <View
+        android:id="@+id/view_box4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:background="#946038"
+        android:backgroundTint="#946038"
+        app:layout_constraintTop_toBottomOf="@id/view_box3"
+        app:layout_constraintRight_toRightOf="@id/view_box3"
+        app:layout_constraintLeft_toLeftOf="@id/view_box3"/>
+
+    <ImageView
+        android:id="@+id/img_box1"
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintLeft_toLeftOf="@id/view_box1"
+        app:layout_constraintRight_toRightOf="@id/view_box1"
+        app:layout_constraintTop_toTopOf="@id/view_box1"
+        app:srcCompat="@drawable/imgbox1" />
+
+    <ImageView
+        android:id="@+id/img_box2"
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintLeft_toLeftOf="@id/view_box2"
+        app:layout_constraintRight_toRightOf="@id/view_box2"
+        app:layout_constraintTop_toTopOf="@id/view_box2"
+        app:srcCompat="@drawable/imgbox2" />
+
+    <ImageView
+        android:id="@+id/img_box3"
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        app:srcCompat="@drawable/imgbox3"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toTopOf="@id/view_box3"
+        app:layout_constraintRight_toRightOf="@id/view_box3"
+        app:layout_constraintLeft_toLeftOf="@id/view_box3"/>
+
+    <ImageView
+        android:id="@+id/img_box4"
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        app:srcCompat="@drawable/imgbox4"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toTopOf="@id/view_box4"
+        app:layout_constraintRight_toRightOf="@id/view_box4"
+        app:layout_constraintLeft_toLeftOf="@id/view_box4"/>
+
+    <TextView
+        android:id="@+id/tv_box1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paket Ayam"
+        android:textColor="@color/text"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/img_box1"
+        app:layout_constraintRight_toRightOf="@id/img_box1"
+        app:layout_constraintLeft_toLeftOf="@id/img_box1"/>
+    <TextView
+        android:id="@+id/tv_boxhar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp.20.000/Box"
+        android:textColor="@color/text"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_box1"
+        app:layout_constraintRight_toRightOf="@id/tv_box1"
+        app:layout_constraintLeft_toLeftOf="@id/tv_box1"/>
+
+    <TextView
+        android:id="@+id/tv_box2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paket Cumi"
+        android:textColor="@color/text"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/img_box2"
+        app:layout_constraintRight_toRightOf="@id/img_box2"
+        app:layout_constraintLeft_toLeftOf="@id/img_box2"/>
+    <TextView
+        android:id="@+id/tv_boxhar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp.25.000/Box"
+        android:textColor="@color/text"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_box2"
+        app:layout_constraintRight_toRightOf="@id/tv_box2"
+        app:layout_constraintLeft_toLeftOf="@id/tv_box2"/>
+
+    <TextView
+        android:id="@+id/tv_box3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paket Udang"
+        android:textSize="15dp"
+        android:textColor="@color/text"
+        app:layout_constraintTop_toBottomOf="@id/img_box3"
+        app:layout_constraintRight_toRightOf="@id/img_box3"
+        app:layout_constraintLeft_toLeftOf="@id/img_box3"/>
+    <TextView
+        android:id="@+id/tv_boxhar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp.35.000/Box"
+        android:textColor="@color/text"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_box3"
+        app:layout_constraintRight_toRightOf="@id/tv_box3"
+        app:layout_constraintLeft_toLeftOf="@id/tv_box3"/>
+
+    <TextView
+        android:id="@+id/tv_box4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paket Daging"
+        android:textSize="15dp"
+        android:textColor="@color/text"
+        app:layout_constraintTop_toBottomOf="@id/img_box4"
+        app:layout_constraintRight_toRightOf="@id/img_box4"
+        app:layout_constraintLeft_toLeftOf="@id/img_box4"/>
+    <TextView
+        android:id="@+id/tv_boxhar4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp.30.000/Box"
+        android:textColor="@color/text"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_box4"
+        app:layout_constraintRight_toRightOf="@id/tv_box4"
+        app:layout_constraintLeft_toLeftOf="@id/tv_box4"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

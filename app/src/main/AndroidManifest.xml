@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.keteringapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.pesan.Value7bulanActivity"></activity>
+        <activity android:name=".ui.pesan.ValueAqiqahActivity" />
+        <activity android:name=".ui.pesan.ValueDietActivity" />
+        <activity android:name=".ui.pesan.ValuePestaActivity" />
+        <activity android:name=".ui.pesan.ValueKueActivity" />
+        <activity android:name=".ui.pesan.ValueBoxActivity" />
+        <activity android:name=".ui.pesan.ValueVegetarianActivity" />
+        <activity android:name=".Register" />
+        <activity android:name=".KontakActivity" />
+        <activity android:name=".DetailInfoActivity" />
+        <activity android:name=".InfoActivity" />
+        <activity android:name=".ui.pesan.Sub_pes__7bulanan" />
+        <activity android:name=".ui.pesan.Sub_pes__aqiqah" />
+        <activity android:name=".ui.pesan.Sub_pes_vegetarian" />
+        <activity android:name=".ui.pesan.Sub_pes_diet" />
+        <activity android:name=".ui.pesan.PesCateringKueActivity" />
+        <activity android:name=".ui.pesan.PesCateringBoxActivity" />
+        <activity android:name=".ui.pesan.PesCateringKhususActivity" />
+        <activity android:name=".ui.pesan.PesCateringPestaActivity" />
+        <activity android:name=".ui.menu.CateringKueActivity" />
+        <activity android:name=".ui.menu.CateringKhususActivity" />
+        <activity android:name=".ui.menu.CateringBoxActivity" />
+        <activity android:name=".ui.menu.CateringPestaActivity" />
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

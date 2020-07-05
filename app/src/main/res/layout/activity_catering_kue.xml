@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkgmenu"
+    tools:context=".ui.menu.CateringKueActivity">
+
+    <TextView
+        android:id="@+id/cat_kue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/text"
+        android:fontFamily="@font/aneetsans"
+        android:text="@string/catering_kue"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <View
+        android:id="@+id/view_kue1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:background="#946038"
+        android:backgroundTint="#946038"
+        app:layout_constraintTop_toBottomOf="@id/cat_kue"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="170dp"/>
+
+
+    <View
+        android:id="@+id/view_kue2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:background="#946038"
+        android:backgroundTint="#946038"
+        app:layout_constraintTop_toBottomOf="@id/view_kue1"
+        app:layout_constraintLeft_toRightOf="@id/view_kue1"
+        app:layout_constraintLeft_toLeftOf="@id/view_kue1"/>
+
+    <View
+        android:id="@+id/view_kue3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:background="#946038"
+        android:backgroundTint="#946038"
+        app:layout_constraintTop_toBottomOf="@id/cat_kue"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="170dp"/>
+
+    <View
+        android:id="@+id/view_kue4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:background="#946038"
+        android:backgroundTint="#946038"
+        app:layout_constraintTop_toBottomOf="@id/view_kue3"
+        app:layout_constraintRight_toRightOf="@id/view_kue3"
+        app:layout_constraintLeft_toLeftOf="@id/view_kue3"/>
+    <View
+        android:id="@+id/view_kue5"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:background="#946038"
+        android:backgroundTint="#946038"
+        app:layout_constraintTop_toBottomOf="@id/view_kue2"
+        app:layout_constraintLeft_toLeftOf="@id/view_kue2"
+        app:layout_constraintRight_toRightOf="@id/view_kue2" />
+
+    <View
+        android:id="@+id/view_kue6"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:background="#946038"
+        android:backgroundTint="#946038"
+        app:layout_constraintTop_toBottomOf="@id/view_kue4"
+        app:layout_constraintRight_toRightOf="@id/view_kue4"
+        app:layout_constraintLeft_toLeftOf="@id/view_kue4"/>
+
+
+    <ImageView
+        android:id="@+id/img_kue1"
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintLeft_toLeftOf="@id/view_kue1"
+        app:layout_constraintRight_toRightOf="@id/view_kue1"
+        app:layout_constraintTop_toTopOf="@id/view_kue1"
+        app:srcCompat="@drawable/kue1" />
+
+    <ImageView
+        android:id="@+id/img_kue2"
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintLeft_toLeftOf="@id/view_kue2"
+        app:layout_constraintRight_toRightOf="@id/view_kue2"
+        app:layout_constraintTop_toTopOf="@id/view_kue2"
+        app:srcCompat="@drawable/kue2" />
+
+    <ImageView
+        android:id="@+id/img_kue3"
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        app:srcCompat="@drawable/kue3"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toTopOf="@id/view_kue3"
+        app:layout_constraintRight_toRightOf="@id/view_kue3"
+        app:layout_constraintLeft_toLeftOf="@id/view_kue3"/>
+
+    <ImageView
+        android:id="@+id/img_kue4"
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        app:srcCompat="@drawable/kue4"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toTopOf="@id/view_kue4"
+        app:layout_constraintRight_toRightOf="@id/view_kue4"
+        app:layout_constraintLeft_toLeftOf="@id/view_kue4"/>
+    <ImageView
+        android:id="@+id/img_kue5"
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        app:srcCompat="@drawable/kue5"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toTopOf="@id/view_kue5"
+        app:layout_constraintRight_toRightOf="@id/view_kue5"
+        app:layout_constraintLeft_toLeftOf="@id/view_kue5"/>
+
+    <ImageView
+        android:id="@+id/img_kue6"
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        app:srcCompat="@drawable/kue6"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toTopOf="@id/view_kue6"
+        app:layout_constraintRight_toRightOf="@id/view_kue6"
+        app:layout_constraintLeft_toLeftOf="@id/view_kue6"/>
+
+    <TextView
+        android:id="@+id/tv_kue1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Risol"
+        android:textColor="@color/text"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@id/img_kue1"
+        app:layout_constraintRight_toRightOf="@id/img_kue1"
+        app:layout_constraintLeft_toLeftOf="@id/img_kue1"/>
+    <TextView
+        android:id="@+id/tv_kuehar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp.2.000/Pcs"
+        android:textColor="@color/text"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_kue1"
+        app:layout_constraintRight_toRightOf="@id/tv_kue1"
+        app:layout_constraintLeft_toLeftOf="@id/tv_kue1"/>
+
+    <TextView
+        android:id="@+id/tv_kue2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Putri Ayu"
+        android:textColor="@color/text"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@id/img_kue2"
+        app:layout_constraintRight_toRightOf="@id/img_kue2"
+        app:layout_constraintLeft_toLeftOf="@id/img_kue2"/>
+    <TextView
+        android:id="@+id/tv_kuehar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp.3.000/Pcs"
+        android:textColor="@color/text"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_kue2"
+        app:layout_constraintRight_toRightOf="@id/tv_kue2"
+        app:layout_constraintLeft_toLeftOf="@id/tv_kue2"/>
+
+    <TextView
+        android:id="@+id/tv_kue3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kue Lapis"
+        android:textSize="20dp"
+        android:textColor="@color/text"
+        app:layout_constraintTop_toBottomOf="@id/img_kue3"
+        app:layout_constraintRight_toRightOf="@id/img_kue3"
+        app:layout_constraintLeft_toLeftOf="@id/img_kue3"/>
+    <TextView
+        android:id="@+id/tv_kuehar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp.2.000/Pcs"
+        android:textColor="@color/text"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_kue3"
+        app:layout_constraintRight_toRightOf="@id/tv_kue3"
+        app:layout_constraintLeft_toLeftOf="@id/tv_kue3"/>
+
+    <TextView
+        android:id="@+id/tv_kue4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lemper"
+        android:textSize="20dp"
+        android:textColor="@color/text"
+        app:layout_constraintTop_toBottomOf="@id/img_kue4"
+        app:layout_constraintRight_toRightOf="@id/img_kue4"
+        app:layout_constraintLeft_toLeftOf="@id/img_kue4"/>
+    <TextView
+        android:id="@+id/tv_kuehar4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp.3.000/Pcs"
+        android:textColor="@color/text"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_kue4"
+        app:layout_constraintRight_toRightOf="@id/tv_kue4"
+        app:layout_constraintLeft_toLeftOf="@id/tv_kue4"/>
+    <TextView
+        android:id="@+id/tv_kue5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kue Cikak"
+        android:textSize="20dp"
+        android:textColor="@color/text"
+        app:layout_constraintTop_toBottomOf="@id/img_kue5"
+        app:layout_constraintRight_toRightOf="@id/img_kue5"
+        app:layout_constraintLeft_toLeftOf="@id/img_kue5"/>
+    <TextView
+        android:id="@+id/tv_kuehar5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp.2.000/Pcs"
+        android:textColor="@color/text"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_kue5"
+        app:layout_constraintRight_toRightOf="@id/tv_kue5"
+        app:layout_constraintLeft_toLeftOf="@id/tv_kue5"/>
+
+    <TextView
+        android:id="@+id/tv_kue6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buras"
+        android:textSize="20dp"
+        android:textColor="@color/text"
+        app:layout_constraintTop_toBottomOf="@id/img_kue6"
+        app:layout_constraintRight_toRightOf="@id/img_kue6"
+        app:layout_constraintLeft_toLeftOf="@id/img_kue6"/>
+    <TextView
+        android:id="@+id/tv_kuehar6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp.4.000/Pcs"
+        android:textColor="@color/text"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_kue6"
+        app:layout_constraintRight_toRightOf="@id/tv_kue6"
+        app:layout_constraintLeft_toLeftOf="@id/tv_kue6"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

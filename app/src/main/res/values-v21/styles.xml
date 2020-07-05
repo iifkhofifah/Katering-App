@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="InfoDetailText" parent="TextAppearance.AppCompat.Headline" />
+
+    <style name="InfoTitle" parent="TextAppearance.AppCompat.Display1">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="InfoDetailTitle" parent="TextAppearance.AppCompat.Display3">
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+
+
+</resources>

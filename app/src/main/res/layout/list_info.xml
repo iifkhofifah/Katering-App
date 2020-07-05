@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/cateringImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:id="@+id/judul"
+            style="@style/InfoTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_alignBottom="@id/cateringImage"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            android:text="@string/title" />
+
+        <TextView
+            android:id="@+id/info"
+            style="@style/InfoDetailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cateringImage"
+            android:textColor="?android:textColorSecondary"
+            android:padding="8dp"
+            android:text="@string/news" />
+
+        <TextView
+            android:id="@+id/deskripsi"
+            style="@style/InfoDetailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info"
+            android:padding="8dp"
+            android:text="@string/info" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

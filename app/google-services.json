@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "140004761622",
+    "firebase_url": "https://ketering-app.firebaseio.com",
+    "project_id": "ketering-app",
+    "storage_bucket": "ketering-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140004761622:android:50f27d3b52448d8a321537",
+        "android_client_info": {
+          "package_name": "com.example.keteringapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140004761622-gk30r5ffnl68rmmpfsjfil0rk1aeuhfc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.keteringapp",
+            "certificate_hash": "bc71e4d204266ad7466123101369663151c2f79c"
+          }
+        },
+        {
+          "client_id": "140004761622-en40fhorj18smjui82i39n1s0ahmbjhh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvva8Tlbj_pYiCsg35lQ8y7xsVVt_k3AM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140004761622-en40fhorj18smjui82i39n1s0ahmbjhh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

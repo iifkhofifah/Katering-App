@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_info"
+        android:icon="@drawable/ic_status_info"
+        android:orderInCategory="100"
+        android:title="Info"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_kontak"
+        android:orderInCategory="100"
+        android:title="Kontak"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_Logout"
+        android:icon="@drawable/ic_logout"
+        android:orderInCategory="20"
+        android:title="@string/action_logout"
+        app:showAsAction="always" />
+</menu>

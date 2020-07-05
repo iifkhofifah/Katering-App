@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkgmenu"
+    tools:context=".ui.menu.CateringKhususActivity">
+
+    <TextView
+        android:id="@+id/cat_khusus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/text"
+        android:fontFamily="@font/aneetsans"
+        android:text="@string/catering_khusus"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <View
+        android:id="@+id/view_khusus1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:background="#946038"
+        android:backgroundTint="#946038"
+        app:layout_constraintTop_toBottomOf="@id/cat_khusus"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="170dp"/>
+
+
+    <View
+        android:id="@+id/view_khusus2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:background="#946038"
+        android:backgroundTint="#946038"
+        app:layout_constraintTop_toBottomOf="@id/view_khusus1"
+        app:layout_constraintLeft_toRightOf="@id/view_khusus1"
+        app:layout_constraintLeft_toLeftOf="@id/view_khusus1"/>
+
+    <View
+        android:id="@+id/view_khusus3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:background="#946038"
+        android:backgroundTint="#946038"
+        app:layout_constraintTop_toBottomOf="@id/cat_khusus"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="170dp"/>
+
+    <View
+        android:id="@+id/view_khusus4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:background="#946038"
+        android:backgroundTint="#946038"
+        app:layout_constraintTop_toBottomOf="@id/view_khusus3"
+        app:layout_constraintRight_toRightOf="@id/view_khusus3"
+        app:layout_constraintLeft_toLeftOf="@id/view_khusus3"/>
+
+    <ImageView
+        android:id="@+id/img_khusus1"
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="30dp"
+        android:onClick="showKhusus1"
+        android:scaleType="fitCenter"
+        app:layout_constraintLeft_toLeftOf="@id/view_khusus1"
+        app:layout_constraintRight_toRightOf="@id/view_khusus1"
+        app:layout_constraintTop_toTopOf="@id/view_khusus1"
+        app:srcCompat="@drawable/imgkhusus1" />
+
+    <ImageView
+        android:id="@+id/img_khusus2"
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="30dp"
+        android:onClick="showKhusus2"
+        app:layout_constraintLeft_toLeftOf="@id/view_khusus2"
+        app:layout_constraintRight_toRightOf="@id/view_khusus2"
+        app:layout_constraintTop_toTopOf="@id/view_khusus2"
+        app:srcCompat="@drawable/imgkhusus3" />
+
+    <ImageView
+        android:id="@+id/img_khusus3"
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        android:onClick="showKhusus3"
+        app:srcCompat="@drawable/imgkhusus2"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toTopOf="@id/view_khusus3"
+        app:layout_constraintRight_toRightOf="@id/view_khusus3"
+        app:layout_constraintLeft_toLeftOf="@id/view_khusus3"/>
+
+    <ImageView
+        android:id="@+id/img_khusus4"
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        app:srcCompat="@drawable/imgkhusus4"
+        android:onClick="showKhusus4"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toTopOf="@id/view_khusus4"
+        app:layout_constraintRight_toRightOf="@id/view_khusus4"
+        app:layout_constraintLeft_toLeftOf="@id/view_khusus4"/>
+
+    <TextView
+        android:id="@+id/tv_khusus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paket Vegetarian"
+        android:textColor="@color/text"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/img_khusus1"
+        app:layout_constraintRight_toRightOf="@id/img_khusus1"
+        app:layout_constraintLeft_toLeftOf="@id/img_khusus1"/>
+    <TextView
+        android:id="@+id/tv_khuhar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp.25.000/Box"
+        android:textColor="@color/text"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_khusus1"
+        app:layout_constraintRight_toRightOf="@id/tv_khusus1"
+        app:layout_constraintLeft_toLeftOf="@id/tv_khusus1"/>
+
+    <TextView
+        android:id="@+id/tv_khusus2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paket 7 Bulanan"
+        android:textColor="@color/text"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/img_khusus2"
+        app:layout_constraintRight_toRightOf="@id/img_khusus2"
+        app:layout_constraintLeft_toLeftOf="@id/img_khusus2"/>
+    <TextView
+        android:id="@+id/tv_khuhar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp.30.000/Box"
+        android:textColor="@color/text"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_khusus2"
+        app:layout_constraintRight_toRightOf="@id/tv_khusus2"
+        app:layout_constraintLeft_toLeftOf="@id/tv_khusus2"/>
+
+    <TextView
+        android:id="@+id/tv_khusus3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paket Diet"
+        android:textSize="15dp"
+        android:textColor="@color/text"
+        app:layout_constraintTop_toBottomOf="@id/img_khusus3"
+        app:layout_constraintRight_toRightOf="@id/img_khusus3"
+        app:layout_constraintLeft_toLeftOf="@id/img_khusus3"/>
+    <TextView
+        android:id="@+id/tv_khuhar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp.100.000/hari"
+        android:textColor="@color/text"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_khusus3"
+        app:layout_constraintRight_toRightOf="@id/tv_khusus3"
+        app:layout_constraintLeft_toLeftOf="@id/tv_khusus3"/>
+
+    <TextView
+        android:id="@+id/tv_khusus4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paket Aqiqah"
+        android:textSize="15dp"
+        android:textColor="@color/text"
+        app:layout_constraintTop_toBottomOf="@id/img_khusus4"
+        app:layout_constraintRight_toRightOf="@id/img_khusus4"
+        app:layout_constraintLeft_toLeftOf="@id/img_khusus4"/>
+    <TextView
+        android:id="@+id/tv_khuhar4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp.3.000.000"
+        android:textColor="@color/text"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_khusus4"
+        app:layout_constraintRight_toRightOf="@id/tv_khusus4"
+        app:layout_constraintLeft_toLeftOf="@id/tv_khusus4"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

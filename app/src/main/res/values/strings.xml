@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Catering App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="jenis_catering">Jenis Catering</string>
+    <string name="pemesanan">Pemesanan</string>
+    <string name="kontak">Kontak</string>
+    <string name="logout">Logout</string>
+    <string name="catering_pesta">Catering Pesta</string>
+    <string name="catering_box">Catering Box</string>
+    <string name="catering_khusus">Catering Khusus</string>
+    <string name="catering_kue">Catering Kue</string>
+    <string name="prasbiasa">Harga Tergantung Keinginan Customer</string>
+    <string name="prasveg">Harga Tergantung Keinginan Customer</string>
+    <string name="khuveg">Dalam Paket Ini Bisa Menyesuaikan Customer</string>
+    <string name="khudiet">Dalam Perhari Sudah Mendapatkan 3box/3x makan</string>
+    <string name="khubln">Dalam Paket Ini Sudah Mendapatkan Rujak 7 Bulanan</string>
+    <string name="khuaqiqah">Harga Tersebut Sudah Mendapatkan Paket Lengkap dari 1 ekor Kambing</string>
+    <string name="pktayam">Paket Ayam</string>
+    <string name="pktcumi">Paket Cumi</string>
+    <string name="pktdaging">Paket Daging</string>
+    <string name="pktudang">Paket Udang</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_info">Info</string>
+    <string name="title">Title</string>
+    <string name="news">Info</string>
+    <string name="info">Deskripsi Tentang  Catering</string>
+    <string name="desalmt">(Jl.Sukasari,No.5, Blok Sukamenak, Desa Tukdana)</string>
+    <string name="desjdl"> Di sini kami menyediakan berbagai jenis catering untuk mengetahui tentang catering silahkan cek info di menu atas</string>
+    <string name="des_catering_khusus">Catering Khusus adalah catering yang istimewa karena di Catering Online ini menyediakan catering khusus seperti paket diet,paket vegetarian,paket 7 bulanan,dan paket aqiqah juga tersedia, penjelasan masing-masing paket khusus tersedia pada informasi masing-pasing paket nya.</string>
+    <string name="des_catering_khusus_diet">Catering Khusus Diet/Paket Diet ditujukan pada orang-orang yang ingin menurunkan berat badan yang melibihi batas ideal. Disini sistem paket diet ada yang sehari,1 minggu,2 minggu,1 bulan jadi dalam perhari sudah mendapat kan 3 kali makan (Breakfast,Lunch,Dinner) menu isi paket ditentukan oleh pihak Catering Online karena disini akan mempertimbangkan dari sisi berat bada customer.</string>
+    <string name="des_catering_khusus_aqiqah">Catering Khusus Aqiqah/Paket Aqiqah ditujukan pada keluarga yang akan mengadakan acara aqiqah yang tidak mau ribet ingin yang praktis maka di Catering Online menyediakan paket aqiqah. Disini membandrol harga 3jt sudah paket lengkap 1 kambing dan embel-embel untuk pelengkap masakan tetapi harga tersebut hanya berlaku untuk 1 kambing jika ingin menambah seperti anak laki-laki biasanya harus 2 kambing maka harga bisa disesuaikan. </string>
+    <string name="des_catering_7bulanan">Catering Khusus 7 Bulanan/Paket 7 Bulanan ditunjukan pada keluarga yang akan mengadakan tujubulanan yang tidak mau ribet ingin yang praktis karena disini paket 7bulanan sudah mendapatkan rujak khas 7 bulanan dalam setiap box nya.</string>
+    <string name="des_catering_vegetarian">Catering Khusus Vegetarian/Paket Vegetarian ditujukan pada customer yang doyan sayur-sayuran atau pun customer yang alergi makan-makanan berat. Tetapi Catering Online juga akan berusaha untuk memenuhi semua gizi yang dibutuhkan oleh tubuh.</string>
+    <string name="des_catering_box">Catering Box ditujukan kepada customer yang akan mengadakan berbagai acara dengan menggunakan box dan berisi makanan berat dan di Catering Online menyediakan beberapa paket seperti Paket Ayam,Paket Udang,Paket Cumi,Paket Daging. maka harga akan berbeda-beda paketan nya harga bisa di lihat di menu/jenis catering.</string>
+    <string name="des_catering_kue">Catering Kue ditunjukan kepada customer yang akan mengadakan berbagai acara dengan menyuguhkan berbagai kue atau box yang berisi kue-kue ringan jenis kue bisa dilihat menu </string>
+    <string name="des_catering_pesta">Catering Pesta ditujukan pada customer yang akan mengadakan acara hajatan yang tidak mau ribet-ribet masak-masak dirumah Catering Online menyediakan berbagai paket perasmanan dan paket tambahan seperti Ice Cream,Bakso,Somay,Sop Buah harga bisa di sesuaikan dengan keinginan customer.</string>
+    <string name="notification_box">Pesanan Catering Box Sudah Terkirim</string>
+    <string name="notification_pesta">Pesanan Catering Pesta Sudah Terkirim</string>
+    <string name="notification_kue">Pesanan Catering Kue Sudah Terkirim</string>
+    <string name="notification_veget">Pesanan Catering Vegetarian Sudah Terkirim</string>
+    <string name="notification_diet">Pesanan Catering Diet Sudah Terkirim</string>
+    <string name="notification_aqiqah">Pesanan Catering Aqiqah Sudah Terkirim</string>
+    <string name="notification_7bulan">Pesanan Catering 7 Bulanan Sudah Terkirim</string>
+    <string name="notification_text">Pesanan akan di proses</string>
+    <string name="total_harga">Total Harga :</string>
+    <string name="des_pem">Untuk Pembayaran Silahkan Konfirmasi Di Kontak Kami, Jika Sudah Konfirmasi Maka Segera Submit. Terimakasih</string>
+
+
+    <string-array name="pkt_prasmanan">
+        <item>Paket Biasa</item>
+        <item>Paket Vegetarian</item>
+    </string-array>
+    <string-array name="pil_amblantar">
+        <item>Ambil</item>
+        <item>Antar</item>
+    </string-array>
+    <string-array name="pakethari">
+        <item>1 Hari</item>
+        <item>1 Minggu</item>
+        <item>2 Minggu</item>
+        <item>1 Bulan</item>
+    </string-array>
+
+    <string-array name="Catering_titles">
+        <item>Catering Pesta</item>
+        <item>Catering Box</item>
+        <item>Catering Khusus</item>
+        <item>Catering Khusus Diet</item>
+        <item>Catering Khusus Vegetarian</item>
+        <item>Catering Khusus Aqiqah</item>
+        <item>Catering Khusus 7 Bulanan</item>
+        <item>Catering Kue</item>
+    </string-array>
+    <string-array name="Catering_Info">
+        <item>Berikut Info Tentang Catering Pesta</item>
+        <item>Berikut Info Tentang Catering Box</item>
+        <item>Berikut Info Tentang Catering Khusus</item>
+        <item>Berikut Info Tentang Catering Khusus Diet</item>
+        <item>Berikut Info Tentang Catering Khusus Vegetarian</item>
+        <item>Berikut Info Tentang Catering Khusus Aqiqah</item>
+        <item>Berikut Info Tentang Catering Khusus 7 Bulanan</item>
+        <item>Berikut Info Tentang Catering Kue</item>
+    </string-array>
+
+    <string-array name="Catering_Images">
+        <item>@drawable/pesta1</item>
+        <item>@drawable/box1</item>
+        <item>@drawable/khusus1</item>
+        <item>@drawable/imgkhusus1</item>
+        <item>@drawable/imgkhusus2</item>
+        <item>@drawable/imgkhusus3</item>
+        <item>@drawable/imgkhusus4</item>
+        <item>@drawable/kue</item>
+    </string-array>
+
+
+</resources>
